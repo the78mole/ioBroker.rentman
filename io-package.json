@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "rentman",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Rental Manager",
+		"titleLang": {
+			"en": "Rental Manager",
+			"de": "Vermietungsmanager",
+			"ru": "Менеджер по аренде",
+			"pt": "Gerente de aluguel",
+			"nl": "Verhuur Manager",
+			"fr": "Gestionnaire de location",
+			"it": "Responsabile noleggio",
+			"es": "Gerente de alquiler",
+			"pl": "Kierownik ds. Wynajmu",
+			"zh-cn": "租赁经理"
+		},
+		"desc": {
+			"en": "Utility to automate the service charges for rooms, flats, houses",
+			"de": "Dienstprogramm zur Automatisierung der Servicegebühren für Zimmer, Wohnungen, Häuser",
+			"ru": "Утилита для автоматизации платы за обслуживание комнат, квартир, домов",
+			"pt": "Utilitário para automatizar as taxas de serviço de quartos, apartamentos, casas",
+			"nl": "Hulpprogramma om de servicekosten voor kamers, flats, huizen te automatiseren",
+			"fr": "Utilitaire pour automatiser les frais de service des chambres, appartements, maisons",
+			"it": "Utilità per automatizzare le spese condominiali per camere, appartamenti, case",
+			"es": "Utilidad para automatizar los cargos por servicios de habitaciones, pisos, casas",
+			"pl": "Narzędzie do automatyzacji opłat eksploatacyjnych dla pokoi, mieszkań, domów",
+			"zh-cn": "实用程序，可自动执行房间，公寓，房屋的服务费"
+		},
+		"authors": [
+			"the78mole <me@the78mole.de>"
+		],
+		"keywords": [
+			"iobroker rental smarthome"
+		],
+		"license": "AGPL-3.0",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "rentman.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/the78mole/ioBroker.rentman/master/admin/rentman.png",
+		"readme": "https://github.com/the78mole/ioBroker.rentman/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "utility",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "assumption",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

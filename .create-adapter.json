@@ -1,0 +1,36 @@
+{
+	"cli": true,
+	"adapterName": "rentman",
+	"title": "Rental Manager",
+	"description": "Utility to automate the service charges for rooms, flats, houses",
+	"keywords": [
+		"iobroker rental smarthome"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "utility",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "assumption",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "the78mole",
+	"authorGithub": "the78mole",
+	"authorEmail": "me@the78mole.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "GNU AGPLv3",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.29.1"
+}
